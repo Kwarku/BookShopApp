@@ -1,6 +1,9 @@
-package pl.narodzinyprogramasity.bookshop.model;
+package pl.narodzinyprogramisty.entity.author;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class Author {
@@ -43,10 +46,10 @@ public class Author {
         this.nationality = nationality;
     }
 
+
     @Override
     public String toString() {
-        return "Author{" +
-                ", name='" + name + '\'' +
+        return "Author{ name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", nationality='" + nationality + '\'' +
                 '}';

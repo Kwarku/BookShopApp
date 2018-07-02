@@ -1,6 +1,7 @@
-package pl.narodzinyprogramasity.bookshop.model;
+package pl.narodzinyprogramisty.dao;
 
 import org.springframework.data.repository.CrudRepository;
+import pl.narodzinyprogramisty.entity.book.Book;
 
 import java.util.List;
 

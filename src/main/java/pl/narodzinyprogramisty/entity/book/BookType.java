@@ -1,4 +1,4 @@
-package pl.narodzinyprogramasity.bookshop.model;
+package pl.narodzinyprogramisty.entity.book;
 
 public enum BookType {
     SCI_FI("sci-fi"),

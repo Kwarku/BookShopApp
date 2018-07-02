@@ -1,4 +1,4 @@
-package pl.narodzinyprogramasity.bookshop;
+package pl.narodzinyprogramisty;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

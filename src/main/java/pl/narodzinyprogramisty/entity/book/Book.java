@@ -1,4 +1,6 @@
-package pl.narodzinyprogramasity.bookshop.model;
+package pl.narodzinyprogramisty.entity.book;
+
+import pl.narodzinyprogramisty.entity.author.Author;
 
 import javax.persistence.*;
 import java.util.List;
