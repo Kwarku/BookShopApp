@@ -6,6 +6,5 @@ import pl.narodzinyprogramisty.entity.author.Author;
 import java.util.List;
 
 public interface AuthorRepository extends CrudRepository<Author, Long> {
-
     List<Author> findAll();
 }

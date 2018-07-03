@@ -4,15 +4,17 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.sql.Date;
 
 @Entity
 public class Author {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.TABLE)
     private Long id;
     private String name;
     private String lastName;
     private String nationality;
+    private Date dateOfBirth;
 
     public Long getId() {
         return id;
@@ -46,12 +48,20 @@ public class Author {
         this.nationality = nationality;
     }
 
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
 
     @Override
     public String toString() {
         return "Author{ name='" + name + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", nationality='" + nationality + '\'' +
+                ", dateOfBirth='"+ dateOfBirth + '\''+
                 '}';
     }
 }
