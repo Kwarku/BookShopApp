@@ -21,7 +21,7 @@ INSERT INTO book_authors (book_id, authors_id) VALUES (3,1);
 INSERT INTO book_authors (book_id, authors_id) VALUES (4,4);
 INSERT INTO book_authors (book_id, authors_id) VALUES (5,2);
 INSERT INTO book_authors (book_id, authors_id) VALUES (5,4);
-INSERT INTO book_authors (book_id, authors_id) VALUES (5,5);YYYY-MM-DD HH:MI:SS
+INSERT INTO book_authors (book_id, authors_id) VALUES (5,5);
 
 INSERT INTO shop_order (id, comment, crete_time, order_status) VALUES (1,'test1','2015-04-06T12:30:15','NEW');
 INSERT INTO shop_order (id, comment, crete_time, order_status) VALUES (2,'test2','2017-07-23T23:20:58','DONE');
