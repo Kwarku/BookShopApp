@@ -16,7 +16,7 @@ public class ShopOrder {
     @Enumerated(EnumType.STRING)
     private OrderStatus orderStatus;
     private String comment;
-    @OneToMany
+    @ManyToMany
     private List<Book> books;
     private Timestamp creteTime;
 
